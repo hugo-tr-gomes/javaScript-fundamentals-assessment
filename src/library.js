@@ -18,7 +18,6 @@ const library = [];
 const addBook = (title, author, isbn, year) => {
   const newBook = Book(title, author, isbn, year);
 
-  //vendors.some(e => e.Name === 'Magenic')
   if(library.some(book => book.isbn === newBook.isbn)) {
     console.log("Book with the same ISBN already exists.");
     return;

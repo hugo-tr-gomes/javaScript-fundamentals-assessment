@@ -25,7 +25,7 @@ const addBook = (title, author, isbn, year) => {
   }
 
   console.log("Book added successfully.");
-  library.push(Book(title, author, isbn, year));
+  library.push(newBook);
   // Placeholder: Add logic to add a new book to the library
   // Provide feedback using console.log for success or failure
   // Handle scenarios like adding a book with a duplicate ISBN
